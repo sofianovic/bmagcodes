@@ -1,0 +1,448 @@
+       <style>
+.flickr_widget .flickr_badge_image{float:left}
+.posts-title h2 a:before{margin-right:10px}
+.comments-tabs-header h3{float:left}
+.comments-tabs-header h3:before{margin-right:10px}
+.comments-tabs.simpleTab .tab-wrapper{float:right}
+.comments-tabs.simpleTab .tab-wrapper li{margin-right:5px}
+.pagenavi a,.pagenavi span{margin-right:5px}
+.authorDetails h2{float:left}
+.authorDetails .AuthorPostsCount{float:right}
+.ticker .title .fa{transform:rotate(-30deg);-moz-transform:rotate(-30deg);-webkit-transform:rotate(-30deg);-ms-transform:rotate(-30deg);-o-transform:rotate(-30deg)}
+.owl-next:before{content:&#39;\f054&#39;;font-family:fontawesome}
+.owl-prev:before{content:&#39;\f053&#39;;font-family:fontawesome}
+blockquote{border-left:5px solid #ccc;margin-left:0;padding-left:15px}
+blockquote:before{content:&#39;\f10d&#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:10px;color:#999}
+blockquote:after{content:&#39;\f10e&#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-left:10px;color:#999}
+#main-wrapper{float:left;border-right:1px solid #eee}
+#main-wrapper #main{margin-right:2.85%}
+#sidebar-wrapper{float:right;padding-left:2%;border-left:1px solid #EEE;left:-1px}
+.menu li a:before{margin-left:10px}
+.menu ul li{float:left}
+.menu ul li a{border-right:1px solid rgba(255,255,255,0.1)}
+.menu ul li ul a:hover{padding-left:30px}
+.menu ul li ul a:before{content:&#39;\f054&#39;;margin-right:5px}
+.home-icon{left:0;border-right:1px solid rgba(255,255,255,0.3)}
+.menu ul{margin-left:65px}
+.hasSub a:after{right:8px}
+.menu ul .hasSub a{padding-right:30px}
+.menu ul li ul{margin-left:0}
+.menu-top{float:left}
+.menu-top #nav{margin-left:0}
+.menu-top li{margin-right:10px}
+.menu-top li a:after{margin-left:10px}
+#header-search{float:right}
+#header-search .searchbox{left:0;padding-left:15px}
+.social-sec{float:right}
+.social-sec li{float:left;margin-left:3px}
+.ticker .title{float:left}
+.ticker .title .fa{margin-right:10px}
+.ticker .layout-content li{float:left;margin-left:30px}
+.ticker .post-tag{margin-right:10px}
+.post-widget .rcp-thumb{float:left;margin-right:10px}
+.post-widget .post-panel{margin-left:70px}
+.more-link{float:right;margin-right:7px}
+.more-link:after{content:&#39;\f054&#39;;margin-left:5px}
+.box-title{border-radius:2px 2px 0 0}
+.box-title h2{padding:10px 20px 5px 10px;border-radius:2px 2px 0 0}
+.box-title h2 a:before{margin-right:10px}
+.recent-date:before{margin-right:10px}
+.recent-author:before{margin-right:10px}
+.recent-author{margin-left:10px}
+.intro-loader{left:0}
+.intro .rcp-thumb:after{left:0}
+.intro li{float:right}
+.intro li:first-child{float:left}
+.intro .post-panel{left:20px}
+.intro .post-tag{left:15px}
+.recent-layout .widget{margin-right:2.85%}
+.fbig ul li .recent-content{padding-left:15px}
+.fbig1 .first-content{padding-left:20px}
+.fbig1 ul li{float:left;margin-right:2%}
+.fbig1 ul li:nth-child(3),.fbig1 ul li:nth-child(5){margin-right:0;margin-left:2%}
+.fbig2 .first{float:left;border-right:1px solid #EEE;padding-right:2%}
+.fbig2 ul li{float:right}
+.list ul li{margin-right:2%;float:left}
+.list ul li:nth-child(2),.list ul li:nth-child(4),.list ul li:nth-child(6){margin-right:0;margin-left:2%}
+.recent-block ul li{float:left;margin-right:.33%}
+.gallery .recent-content{left:10px}
+.videos ul li:nth-child(1),.videos ul li:nth-child(2),.videos ul li:nth-child(4),.videos ul li:nth-child(5){margin-right:2%}
+.videos ul li{margin-right:0}
+.owl-carousel .owl-item{float:left}
+.owl-prev,.owl-next{margin-right:5px}
+.box-title .owl-controls{float:right}
+.carousel .recent-content{left:5%}
+.carousel .recent-thumb:before{left:0}
+.slider .owl-controls{left:10px}
+.postags{left:5px}
+#related-posts .owl-controls{left:10px}
+#related-posts .owl-carousel .owl-wrapper-outer{margin-left:2px}
+.rnav li{padding:0 5px 0 1px;float:left}
+.rnav li .rnav-conent{left:5%}
+.sharepost li{float:left;margin-right:1.2%}
+.sharepost li:last-child{margin-right:0}
+.sharepost li .fa:before{margin-right:5px}
+.posts-title{border-radius:2px 2px 0 0;margin-right:2.85%}
+.posts-title h2{padding:10px 20px 5px 10px;border-radius:2px 2px 0 0}
+.posts-link{float:right;margin-right:9px}
+.posts-link:after{content:&#39;\f054&#39;;margin-left:5px}
+.post-share{left:185px}
+.post-share:before{left:-2%;border-width:0 1px 1px 0}
+.post-sharebtn{float:left}
+.post-readmore{float:left}
+.fa-twitter:before{margin-right:5px}
+.fa-facebook:before{margin-right:5px}
+.fa-google-plus:before{margin-right:5px}
+.fa-long-arrow-right:before{margin-left:10px}
+.fa-angle-right:before{content:&#39;\f105&#39;}
+.item .post-heading{-webkit-border-radius:2px 2px 0 0;border-radius:2px 2px 0 0}
+.index article{padding:0 0 0 20px}
+.post-timestamp{margin-left:5px}
+.post-labels{margin-left:5px}
+.post-pager .previous{float:left}
+.post-pager .next{text-align:right}
+.tagstitle{float:left;margin:0 10px 0 0}
+.authorLeft{float:left;margin-right:20px}
+.authorContent .authorSocial{float:right}
+.authorSocial{text-align:left}
+.authorSocial a{margin-left:5px}
+.comments .comment-block{margin-left:0}
+.comments .comments-content .datetime{margin-left:0}
+.comments .avatar-image-container{float:left;margin-right:15px}
+.comments .comment .comment-actions a{float:right;margin-left:5px}
+.PopularPosts .item-thumbnail{float:left;margin:0 8px 0 0}
+.sidebar .LinkList li:before,.footer .LinkList li:before,.sidebar .PageList li:before,.footer .PageList li:before{content:&#39;\f101&#39;margin-left:5px}
+.FollowByEmail td{float:left}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit{margin-left:0}
+.FollowByEmail .follow-by-email-inner .follow-by-email-address{padding-left:10px}
+.list-label-widget-content ul li:after{left:0}
+.list-label-widget-content ul li a:before{margin-right:10px;content:&#39;\f105&#39;}
+.cloud-label-widget-content span{float:left;margin:0 4px 5px 0}
+.commentswidget li .avatarImage{float:left;margin:0 10px 0 0}
+.menu-tab li{float:left}
+#sidebar-wrapper .widget h2{padding-right:15px}
+.footer-column h2{padding-right:15px}
+#footer-wrapper .footer-column{float:left}
+#footer-wrapper #column1,#footer-wrapper #column2{margin-right:1.6666667%}
+.menu-bottom{float:left}
+.menu-bottom li{float:left;margin-right:4px}
+.menu-bottom ul{margin-left:0}
+.contact-button{float:right}
+.contact-close{right:-12px}
+.contact-button a .fa{margin-right:5px}
+.copy-right{float:right}
+.copy-left{float:left}
+.social-counter ul li{float:left}
+.item-icon{margin-right:5px}
+.social-item .item-icon:after{left:50%;margin-left:-5px}
+.button{float:left}
+pre .line-number{float:left;margin:0 1em 0 -1em;border-right:2px solid #3E5770;text-align:right}
+pre .line-number span{padding:0 .5em 0 1em}
+#contact .contact-form-name{margin-right:12px}
+.two-column .column{float:left}
+.two-column .column:first-child{border-right:1px solid #DDD}
+.alert-message i{float:left;margin-right:5px}
+.simpleTab.side .tab-wrapper{float:left}
+.simpleTab.side .tab-content{float:left}
+.maplabel h2 .butoo{float:right}
+.map-date{float:left}
+.mpost .rcp-title{margin-left:30px;float:left}
+@media screen and (max-width: 1050px) {
+.search-icon{right:0}
+}
+@media screen and (max-width: 1000px) {
+#main-wrapper{border-right:0}
+#sidebar-wrapper{border-left:0;padding-left:0;left:0}
+.recent-layout .widget{margin-right:0}
+#footer-wrapper #column1,#footer-wrapper #column2{margin-right:0}
+.menu-top li a:after{margin-left:5px}
+}
+@media screen and (max-width: 950px) {
+.intro li:first-child{float:left}
+.intro li{float:left}
+}
+@media screen and (max-width: 940px) {
+.menu .selectnav{margin-left:65px}
+}
+@media screen and (max-width: 700px) {
+.fbig2 .first{padding-right:0;border-right:0}
+.fbig1 .first-content{padding-left:0}
+.index article{padding-left:0}
+.videos ul li{float:left}
+}
+       </style>
+     <b:else/>
+       <style>
+.flickr_widget .flickr_badge_image{float:right}
+.posts-title h2 a:before{margin-left:10px}
+.post-readmore .fa:before{content:&quot;\f177&quot;}
+.comments-tabs-header h3{float:right}
+.comments-tabs-header h3:before{margin-left:10px}
+.comments-tabs.simpleTab .tab-wrapper{float:left}
+.comments-tabs.simpleTab .tab-wrapper li{margin-left:5px}
+.pagenavi a,.pagenavi span{margin-left:5px}
+.post-pager .fa-angle-double-left:before{content:&#39;\f101&#39;}
+.post-pager .fa-angle-double-right:before{content:&#39;\f100&#39;}
+.authorDetails h2{float:right}
+.authorDetails .AuthorPostsCount{float:left}
+.ticker .title .fa{transform:rotate(30deg);-moz-transform:rotate(30deg);-webkit-transform:rotate(30deg);-ms-transform:rotate(30deg);-o-transform:rotate(30deg)}
+.recent-date:before,.recent-author:before{float:right}
+.recent-date,.recent-author{display:inline-block}
+.owl-next:before{content:&#39;\f053&#39;;font-family:fontawesome}
+.owl-prev:before{content:&#39;\f054&#39;;font-family:fontawesome}
+blockquote{border-right:5px solid #ccc;margin-right:0;padding-right:15px}
+blockquote:after{content:&#39;\f10d&#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-right:10px;color:#999}
+blockquote:before{content:&#39;\f10e&#39;;display:inline-block;font-family:FontAwesome;font-style:normal;font-weight:400;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;margin-left:10px;color:#999}
+#main-wrapper{float:right;border-left:1px solid #eee}
+#main-wrapper #main{margin-left:2.85%}
+#sidebar-wrapper{float:left;padding-right:2%;border-right:1px solid #EEE;right:-1px}
+.menu ul li{float:right}
+.menu ul li a{border-left:1px solid rgba(255,255,255,0.1)}
+.menu ul li ul a:hover{padding-right:30px}
+.menu ul li ul a:before{content:&#39;\f053&#39;;margin-left:5px;float:right}
+.home-icon{right:0;border-left:1px solid rgba(255,255,255,0.3)}
+.menu ul{margin-right:65px}
+.hasSub a:after{left:8px}
+.menu ul .hasSub a{padding-left:30px}
+.menu ul li ul{margin-right:0}
+.menu-top{float:right}
+.menu-top #nav{margin-right:0}
+.menu-top li{margin-left:10px}
+.menu-top li a:after{margin-right:10px}
+#header-search{float:left}
+#header-search .searchbox{right:0;padding-right:15px}
+.social-sec{float:left}
+.social-sec li{float:right;margin-right:3px}
+.ticker .title{float:right}
+.ticker .title .fa{margin-left:10px}
+.ticker .layout-content li{float:right;margin-right:30px}
+.ticker .post-tag{margin-left:10px}
+.post-widget .rcp-thumb{float:right;margin-left:10px}
+.post-widget .post-panel{margin-right:70px}
+.more-link{float:left;margin-left:7px}
+.more-link:after{content:&#39;\f053&#39;;margin-right:5px;float:left}
+.box-title{border-radius:2px 0 0 2px}
+.box-title h2{padding:10px 10px 5px 20px;border-radius:2px 0 0 2px}
+.box-title h2 a:before{margin-left:10px;float:right}
+.recent-date:before{margin-left:10px}
+.recent-author:before{margin-left:10px}
+.recent-author{margin-right:10px}
+.intro-loader{right:0}
+.intro .rcp-thumb:after{right:0}
+.intro li{float:left}
+.intro li:first-child{float:right}
+.intro .post-panel{right:20px}
+.intro .post-tag{right:15px}
+.recent-layout .widget{margin-left:2.85%}
+.fbig ul li .recent-content{padding-right:15px}
+.fbig1 .first-content{padding-right:20px}
+.fbig1 ul li{float:right;margin-left:2%}
+.fbig1 ul li:nth-child(3),.fbig1 ul li:nth-child(5){margin-left:0;margin-right:2%}
+.fbig2 .first{float:right;border-left:1px solid #EEE;padding-left:2%}
+.fbig2 ul li{float:left}
+.list ul li{margin-right:2%;float:right}
+.list ul li:nth-child(2),.list ul li:nth-child(4),.list ul li:nth-child(6){margin-left:0;margin-right:2%}
+.recent-block ul li{float:right;margin-left:.33%}
+.gallery .recent-content{right:10px}
+.videos ul li:nth-child(1),.videos ul li:nth-child(2),.videos ul li:nth-child(4),.videos ul li:nth-child(5){margin-left:2%}
+.videos ul li{margin-left:0}
+.owl-carousel .owl-item{float:right}
+.owl-prev,.owl-next{margin-left:5px}
+.box-title .owl-controls{float:left}
+.carousel .recent-content{right:5%}
+.carousel .recent-thumb:before{right:0}
+.slider .owl-controls{right:10px}
+.postags{right:5px}
+#related-posts .owl-controls{right:10px}
+#related-posts .owl-carousel .owl-wrapper-outer{margin-right:2px}
+.rnav li{padding:0 1px 0 5px;float:right}
+.rnav li .rnav-conent{right:5%}
+.sharepost li{float:right;margin-left:1.2%}
+.sharepost li:last-child{margin-left:0}
+.sharepost li .fa:before{margin-left:5px}
+.posts-title{border-radius:2px 0 0 2px;margin-left:2.85%}
+.posts-title h2{padding:10px 10px 5px 20px;border-radius:2px 0 0 2px}
+.posts-link{float:left;margin-left:9px}
+.posts-link:after{content:&#39;\f053&#39;;margin-right:5px}
+.post-share{right:185px}
+.post-share:before{right:-2%;border-width:0 0 1px 1px}
+.post-sharebtn{float:right}
+.post-readmore{float:right}
+.fa-twitter:before{margin-left:5px}
+.fa-facebook:before{margin-left:5px}
+.fa-google-plus:before{margin-left:5px}
+.fa-long-arrow-right:before{margin-right:10px}
+.fa-angle-right:before{content:&#39;\f104&#39;}
+.item .post-heading{-webkit-border-radius:0 2px 0 2px;border-radius:2px 0 0 2px}
+.index article{padding:0 20px 0 0}
+.post-timestamp{margin-right:5px}
+.post-labels{margin-right:5px}
+.post-pager .previous{float:right}
+.post-pager .next{text-align:left}
+.tagstitle{float:right;margin:0 0 0 10px}
+.authorLeft{float:right;margin-left:20px}
+.authorContent Social{float:left}
+.authorSocial{text-align:center}
+.authorSocial a{margin-right:5px}
+.comments .comment-block{margin-right:0}
+.comments .comments-content .datetime{margin-right:0}
+.comments .avatar-image-container{float:right;margin-left:15px}
+.comments .comment .comment-actions a{float:left;margin-right:5px}
+.PopularPosts .item-thumbnail{float:right;margin:0 0 0 8px}
+.sidebar .LinkList li:before,.footer .LinkList li:before,.sidebar .PageList li:before,.footer .PageList li:before{content:&#39;\f101&#39;;margin-right:5px}
+.FollowByEmail td{float:right}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit{margin-right:0}
+.FollowByEmail .follow-by-email-inner .follow-by-email-address{padding-right:10px}
+.list-label-widget-content ul li:after{right:0}
+.list-label-widget-content ul li a:before{margin-left:10px;content:&#39;\f104&#39;}
+.cloud-label-widget-content span{float:right;margin:0 0 5px 4px}
+.commentswidget li .avatarImage{float:right;margin:0 0 0 10px}
+.menu-tab li{float:right}
+#sidebar-wrapper .widget h2{padding-left:15px}
+.footer-column h2{padding-left:15px}
+#footer-wrapper .footer-column{float:right}
+#footer-wrapper #column1,#footer-wrapper #column2{margin-left:1.6666667%}
+.menu-bottom{float:right}
+.menu-bottom li{float:right;margin-left:4px}
+.menu-bottom ul{margin-right:0}
+.contact-button{float:left}
+.contact-close{left:-12px}
+.contact-button a .fa{margin-left:5px}
+.copy-right{float:left}
+.copy-left{float:right}
+.social-counter ul li{float:right}
+.item-icon{margin-left:5px}
+.social-item .item-icon:after{right:50%;margin-right:-5px}
+.button{float:right}
+pre .line-number{float:right;margin:0 -1em 0 1em;border-left:2px solid #3E5770;text-align:left}
+pre .line-number span{padding:0 1em 0 .5em}
+#contact .contact-form-name{margin-left:12px}
+.two-column .column{float:right}
+.two-column .column:first-child{border-left:1px solid #DDD}
+.alert-message i{float:right;margin-left:5px}
+.simpleTab.side .tab-wrapper{float:right}
+.simpleTab.side .tab-content{float:right}
+.maplabel h2 .butoo{float:left}
+.map-date{float:right}
+.mpost .rcp-title{margin-right:30px;float:right}
+@media screen and (max-width: 1050px) {
+.search-icon{left:0}
+}
+@media screen and (max-width: 1000px) {
+#main-wrapper{border-left:0}
+#sidebar-wrapper{border-right:0;padding-right:0;right:0}
+.recent-layout .widget{margin-left:0}
+#footer-wrapper #column1,#footer-wrapper #column2{margin-left:0}
+.menu-top li a:after{margin-right:5px}
+}
+@media screen and (max-width: 950px) {
+.intro li:first-child{float:right}
+.intro li{float:right}
+}
+@media screen and (max-width: 940px) {
+.menu .selectnav{margin-right:65px}
+}
+@media screen and (max-width: 700px) {
+.fbig2 .first{padding-left:0;border-left:0}
+.fbig1 .first-content{padding-right:0}
+.index article{padding-right:0}
+.videos ul li{float:right}
+}
+       </style>
+    </b:if>
+     <style>
+/*=====================================
+= Responsive Design
+=====================================*/
+@media screen and (max-width: 1385px) {
+         .switcher {display:none}
+}
+@media screen and (max-width: 1200px) {
+.row{margin-right:2%!important;margin-left:2%!important}
+.tr_bq {width:100%}
+}
+@media screen and (max-width: 1050px) {
+.search-icon{position:absolute;top:0}
+.menu ul li a{padding:0 10px;font-size:14px}
+.tr_bq {width:100%}
+}
+@media screen and (max-width: 1000px) {
+.menu ul li a{padding:0 8px;font-size:12px}
+.header,.topad{display:block}
+#header-content{display:block;padding:30px 0}
+.header{max-width:200px;margin:0 auto 30px}
+.topad{margin:0 auto;height:auto}
+#main-wrapper{width:100%;float:none}
+#sidebar-wrapper{width:100%;margin:30px auto;float:none}
+#footer-wrapper .footer-column{width:100%;float:none}
+.menu-bottom li a{padding:0 17px}
+.menu-top li a{font-size:10px}
+.posts-title{margin-left:0;margin-right:0}
+#main-wrapper #main{margin-right:0;margin-left:0}
+.recent-layout .widget.column{margin-left:1%;margin-right:1%;width:48%}
+.tr_bq {width:100%}
+}
+@media screen and (max-width: 950px) {
+.menu ul li a{padding:0 8px;font-size:12px}
+.intro li:first-child{width:33.33%;height:215px}
+.intro li{width:33.33%;margin-bottom:20px!important}
+.intro .widget{height:auto;margin-bottom:0!important}
+.intro-loader{display: none}
+.intro li:first-child .rcp-thumb{height:215px}
+.intro li:first-child .rcp-title{font-size:16px}
+.menu-bottom li a{padding:0 17px}
+.tr_bq {width:100%}
+}
+.selectnav{display:none}
+@media screen and (max-width: 900px) {
+.home-icon{border-right:0;border-left:0}
+.js #nav,.js #nav1,.js #nav3{display:none!important}
+.js .selectnav{display:block}
+.selectnav{width:100%;padding:0 30px;font-style:normal;font-weight:400;font-size:13px;background-color:#fff;cursor:pointer;overflow:hidden}
+.menu .selectnav{width:500px;background-color:#444;color:#FFF;position:relative;top:0;height:65px}
+.menu-top .selectnav{height:25px;margin-top:5px;background-color:#444;color:#FFF}
+.menu-bottom .selectnav{height:40px;background-color:#333;color:#FFF}
+.copy-left,.copy-right{float:none;text-align:center;margin-bottom:5px}
+#copyrights{height:auto;padding-top:40px}
+.topad img{max-width:100%}
+.tr_bq {width:100%}
+}
+@media screen and (max-width: 700px) {
+.menu .selectnav{width:250px}
+.menu-top .selectnav{width:200px}
+.intro li:first-child,.intro li{width:100%;float:none;height:300px}
+.intro li:first-child .rcp-thumb,.intro li .rcp-thumb{height:300px}
+.fbig2 .first{float:none;width:100%;margin-bottom:20px}
+.fbig2 ul li{float:none;width:100%}
+.list ul li{width:100%;float:none;display:block;margin-left:0!important;margin-right:0!important}
+.fbig .first .rthumbc{width:100%;display:block;margin-bottom:20px}
+.fbig1 .first-content{display:block}
+.fbig1 ul li{display:block;float:none;width:100%;margin-left:0!important;margin-right:0!important}
+.recent-layout .widget.column{margin-left:0;margin-right:0;width:100%;display:block}
+.post-thumb{display:block;width:100%;margin-bottom:20px}
+.index .post{display:block}
+.recent-block ul li{width:49.66666%}
+.videos ul li{width:100%;height:204px;display:inline-block;margin-left:0!important;margin-right:0!important;margin-bottom:20px!important;overflow:hidden}
+.tr_bq {width:100%}
+}
+@media screen and (max-width: 460px) {
+.social-sec,.ticker{display:none}
+.post-meta,.recent-date {font-size:12px}
+.pagenavi {padding:3px}
+       }
+@media screen and (max-width: 420px) {
+.home-icon{display:none}
+.menu .selectnav{margin-left:15px;margin-right:15px}
+.social-sec{display:none}
+#header-search{display:none}
+.slider.recent-block .recent-thumb{height:250px}
+.slider .recent-des{display: none}
+.authorLeft{float:none;width:120px;margin:0 auto}
+.authorDetails{text-align:center}
+.authorDetails h2{float:none}
+.articleAuthor .authorContent p{text-align:center}
+ul.post-pager{display: none}
+.sharepost li{width: 100%}
+.tr_bq {width:100%}
+}
+    </style>
